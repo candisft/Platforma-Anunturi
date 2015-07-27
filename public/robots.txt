@@ -1,0 +1,3 @@
+Sitemap: http://erapid.ro/sitemap.xml
+User-agent: *
+Allow: /

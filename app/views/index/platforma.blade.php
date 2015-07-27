@@ -1,0 +1,6 @@
+@yield('header')
+@yield('loginregister')
+@yield('fixedbar')
+@yield('toppart')
+@yield('primapagina')
+@yield('footer')

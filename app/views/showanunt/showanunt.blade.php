@@ -1,0 +1,7 @@
+@yield('header')
+@yield(((!Auth::check()) ? 'loginregister' : '' ))
+@yield('addanuntmesaje')
+@yield(((!Auth::check()) ? 'fixedbar' : 'fixedbarlogat' ))
+@yield('toppart')
+@yield('showanunt')
+@yield('footer')

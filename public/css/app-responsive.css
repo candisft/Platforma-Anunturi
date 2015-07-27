@@ -1,0 +1,87 @@
+/**
+ * Created by Stoian Ioan-Catalin on 8/13/14.
+ */
+.fixedbar { max-width: 500px; min-width: 250px;  }
+.spanaux { display:block; float:right; }
+.meniu { width: 200px; float:right; margin-right: 20px; position:relative; }
+.buton { margin: 0px; width: 100%; background-color:#66b440; padding-left:0; padding-right:0; }
+.buton:hover { background-color:#f3ad33; }
+.buton div { margin-left: 5px; }
+.meniu-responsive { display:none; position:absolute; top: 30px; border: 1px solid #fff; }
+.userlogin, .tutorial, .categorii, .addads { float:right; margin-right: 10px; }
+.cauta-cat { float:left; margin-right: 10%; }
+.cauta-cart { float:left; margin-top: 20px; margin-left: 10%; }
+.sort { font-size: 11px; }
+.meniu-icon { cursor:pointer; }
+.continut { max-width: 625px; min-width: 250px;  }
+.pretul { float:left; margin-left: 10%; }
+.addanunt input[type='text'] { width: 100%; padding-left: 10px; }
+.addanunt textarea { width: 90%; }
+.chose { width: 50%; right: 40%; }
+.anuntaddarea { width: 80%;  }
+.cartierechose { width: 60%; }
+.trimite { width: 90%; }
+.help-blue { display:none; }
+.loginform { min-width: 200px; max-width: 400px; }
+.resetpar { display:none; }
+.logheazate { width: 100%; }
+.part1 { width: 100%; }
+.part2 { width: 100%;  }
+.anuntcon { width: 50%; }
+.anunturi .data-ant { width: 7%; font-size: 11px; margin-right: 20px; margin-left: 20px; }
+.anuntpanel li { font-size: 10px; }
+.galshowcon { position:relative; width: 90%; min-height: 100px; padding-bottom: 10px; background-color:#fff; margin-top: 6%; text-align:center; }
+.galshowcon img { width: 95%; height: auto; margin-top: 30px; }
+.galshowcon .vertical { width: 55%; height: auto; }
+.trei { width: 80%; }
+.cpanel li { font-size: 11px; width: 50%; }
+.mesaje li { width: 50%; }
+.mesaje li:first-child { width: 100%; }
+.trimite-ticket { width: 100%; }
+.ticketform input { width: 100%; }
+.ticketform input.capcha-input { width: 50%; }
+.ticketform textarea { width: 100%; }
+.aftermesaj { width: 100%; }
+.clickchoes { width: 46%; }
+.setting-input { width: 80%; }
+.salveaza { width: 80%; }
+.anunturi { text-align:center; }
+.anunturi .data-ant { clear:both; width: 100%; }
+.anuntcon { width: 100%; clear:both; }
+.preview { width:100%; clear:both; text-align:center; }
+.preview img { width: 20%; }
+.preview img.height { width: 10%; }
+.anuntrand { width: 90%; }
+.anuntrand img { width: 25%;  }
+.anuntrand img.height { width: 10%; }
+.anuntpret { width: 100%; font-size: 12px; line-height: 1.1; text-align:center; clear:both; position:relative; }
+.tuto { display:none; }
+.footer a { display:none;}
+@media only screen and (max-width: 470px) {
+    .responsiveclear { clear:both; }
+    .pretul { margin-right: 0; }
+    .anuntpanel { border: 0; }
+    .anuntcon {  }
+    .anuntpanel2 li { clear:both; border: 1px solid #cdcdcd; border-bottom: 0; width: 100%; }
+    .anuntpanel2 li:last-child { border: 1px solid #cdcdcd; }
+    .forcp li { float:left; width: 24%; }
+    .indexcat li { width: 40%; }
+    .trei { width: 80%; }
+    .galshowcon { margin-top: 20%; }
+    .footer { text-align:center; }
+    .footer span { font-size: 11px; }
+    .tabs li { font-size: 11px; }
+    .add-new-ticket { clear:both; width: 90%; margin-right: 10px; }
+    .preview img { width: 25%; }
+    .preview img.height { width: 15%; }
+}
+@media only screen and (max-width: 370px) {
+    .sort { font-size: 9px;  }
+    .chose { width: 60%; right: 5%; }
+    .footer { text-align:center; }
+    .footer span { font-size: 11px; }
+    .clickchoes { width: 49%; font-size: 11px; }
+    .preview img { width: 30%; }
+    .preview img.height { width: 20%; }
+    .anuntrand img { width: 50%;  }
+}

@@ -1,0 +1,5 @@
+@yield('header')
+@yield('fixedbarlogat')
+@yield('toppart')
+@yield('primapagina')
+@yield('footer')

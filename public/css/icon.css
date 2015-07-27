@@ -1,0 +1,146 @@
+/**
+ * Created by Stoian Ioan-Catalin on 8/13/14.
+ */
+.menu25, .email-big, .telefon, .agro, .agro2,
+.auto, .auto2, .mesaj, .casa-si-gradina, .casa-si-gradina2,
+.prices, .prices2, .imobiliare, .imobiliare2, .servicii,
+.servicii2, .vizualizari, .vizualizari2, .animale, .animale2,
+.calendar, .calendar2, .electronice, .electronice2, .locuri-de-munca,
+.locuri-de-munca2, .sport, .sport2, .user, .user2,
+.addads, .dollar, .user-email, .categorii, .moda,
+.moda2, .userlogin, .tutorial, .mama-si-copilul, .mama-si-copilul2
+{ display: inline-block; background: url(../img/icon.png) no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.menu25 { background-position: -3px -0px; width: 24px; height: 24px;  }
+.email-big { background-position: -3px -27px; width: 23px; height: 16px; }
+.telefon { background-position: -3px -46px; width: 23px; height: 23px; }
+.agro { background-position: -3px -72px; width: 19px; height: 14px; }
+.agro2 { background-position: -3px -89px; width: 19px; height: 14px; }
+.auto { background-position: -3px -106px; width: 18px; height: 8px; }
+.auto2 { background-position: -3px -117px; width: 18px; height: 8px; }
+.mesaj { background-position: -3px -128px; width: 17px; height: 12px; }
+.casa-si-gradina { background-position: -3px -143px; width: 16px; height: 8px; }
+.casa-si-gradina2 { background-position: -3px -154px; width: 16px; height: 8px; }
+.prices { background-position: -3px -165px; width: 16px; height: 14px; }
+.prices2 { background-position: -3px -182px; width: 16px; height: 14px; }
+.imobiliare { background-position: -3px -199px; width: 15px; height: 11px; }
+.imobiliare2 { background-position: -3px -213px; width: 15px; height: 11px; }
+.servicii { background-position: -3px -227px; width: 15px; height: 17px; }
+.servicii2 { background-position: -3px -247px; width: 15px; height: 17px; }
+.vizualizari { background-position: -3px -267px; width: 15px; height: 11px; }
+.vizualizari2 { background-position: -3px -281px; width: 15px; height: 11px; }
+.animale { background-position: -3px -295px; width: 14px; height: 13px; }
+.animale2 { background-position: -3px -311px; width: 14px; height: 13px; }
+.calendar { background-position: -3px -327px; width: 14px; height: 14px; }
+.calendar2 { background-position: -3px -344px; width: 14px; height: 14px; }
+.electronice { background-position: -3px -361px; width: 14px; height: 12px; }
+.electronice2 { background-position: -3px -376px; width: 14px; height: 12px; }
+.locuri-de-munca { background-position: -3px -391px; width: 14px; height: 15px; }
+.locuri-de-munca2 { background-position: -3px -409px; width: 14px; height: 15px; }
+.sport { background-position: -3px -427px; width: 13px; height: 11px; }
+.sport2 { background-position: -3px -441px; width: 13px; height: 11px; }
+.user { background-position: -3px -455px; width: 13px; height: 15px; }
+.user2 { background-position: -3px -473px; width: 13px; height: 15px; }
+.addads { background-position: -3px -491px; width: 12px; height: 10px; margin-right: 5px; }
+.dollar { background-position: -3px -504px; width: 12px; height: 21px; }
+.user-email { background-position: -3px -528px; width: 12px; height: 15px; }
+.categorii { background-position: -3px -546px; width: 11px; height: 11px; margin-left: 5px; }
+.moda { background-position: -3px -560px; width: 11px; height: 13px; }
+.moda2 { background-position: -3px -576px; width: 11px; height: 13px; }
+.userlogin { background-position: -3px -592px; width: 11px; height: 15px; margin-right: 5px; position:relative; top: 3px; }
+.tutorial { background-position: -3px -610px; width: 10px; height: 15px; margin-left: 5px; }
+.mama-si-copilul { background-position: -3px -628px; width: 9px; height: 15px; }
+.mama-si-copilul2 { background-position: -15px -628px; width: 9px; height: 15px; }
+.close-orange, .close-red, .close-white, .help-blue, .help-orange,
+.help-white, .tick-green, .tick-orange, .tick-white, .user-pass
+{ display: inline-block; background: url(../img/icon2.png) no-repeat; }
+
+.close-orange { background-position: -3px -0px; width: 15px; height: 15px; }
+.close-red { background-position: -3px -18px; width: 15px; height: 15px; }
+.close-white { background-position: -3px -36px; width: 15px; height: 15px; background-color:#ea5151; }
+.close-white.cls-x { background-color:transparent; }
+.help-blue { background-position: -3px -54px; width: 15px; height: 15px; }
+.help-orange { background-position: -3px -72px; width: 15px; height: 15px; }
+.help-white { background-position: -3px -90px; width: 15px; height: 15px; }
+.tick-green { background-position: -3px -108px; width: 15px; height: 15px; }
+.tick-orange { background-position: -3px -126px; width: 15px; height: 15px; }
+.tick-white { background-position: -3px -144px; width: 15px; height: 15px; }
+.user-pass { background-position: -3px -162px; width: 12px; height: 15px; }
+.menuactiv { background-color:#66b440; border: 2px solid #66b440; }
+.addcredit-creditcard, .addcredit-creditcard2, .addcredit-mobil, .addcredit-mobil2
+{ display: inline-block; background: url(../img/addcredit.png) no-repeat; }
+
+.addcredit-creditcard { background-position: -3px -0px; width: 50px; height: 50px; }
+.add-credit table td:hover > .addcredit-creditcard { background-position: -56px -0px; width: 50px; height: 50px; }
+.addcredit-mobil { background-position: -3px -53px; width: 50px; height: 50px; }
+.add-credit table td:hover > .addcredit-mobil { background-position: -56px -53px; width: 50px; height: 50px; }
+
+.cat-adult, .cat-adult2, .cat-all, .cat-all2, .cat-animal,
+.cat-animal2, .cat-auto, .cat-auto2, .cat-electronice, .cat-electronice2,
+.cat-gradina, .cat-gradina2, .cat-imobiliare, .cat-imobiliare2, .cat-industrie,
+.cat-industrie2, .cat-locuri-de-munca, .cat-locuri-de-munca2, .cat-mama-si-copilul, .cat-mama-si-copilul2,
+.cat-moda-si-frumusete, .cat-moda-si-frumusete2, .cat-servicii, .cat-servicii2, .cat-sport-si-arta,
+.cat-sport-si-arta2, .cat-cpads, .cat-cpsetari, .cat-messages, .cat-plati,
+.cat-saveads, .cat-ticket, .cat-location, .cat-skype, .cat-yahoo,
+.cat-dezactiveaza, .cat-dezactiveaza2, .cat-edit, .cat-edit2, .cat-logout,
+.cat-miniadmin, .cat-minimessages, .cat-miniplati, .cat-minisaveads, .cat-miniticket,
+.cat-muta-inapoi, .cat-myads, .cat-myfounds, .cat-next, .cat-previeus,
+.cat-print, .cat-print2, .cat-promoveaza, .cat-promoveaza2, .cat-reactualizeaza,
+.cat-settings
+{ display: inline-block; background: url(../img/caticon.png) no-repeat;}
+
+.cat-adult { background-position: -3px -0px; width: 40px; height: 40px; }
+.cat-all { background-position: -3px -86px; width: 40px; height: 40px; }
+.cat-all2 { background-position: -3px -129px; width: 40px; height: 40px; }
+.cat-animal { background-position: -3px -172px; width: 40px; height: 40px; }
+.cat-animal2 { background-position: -3px -215px; width: 40px; height: 40px; }
+.cat-auto { background-position: -3px -258px; width: 40px; height: 40px; }
+.cat-auto2 { background-position: -3px -301px; width: 40px; height: 40px; }
+.cat-electronice { background-position: -3px -344px; width: 40px; height: 40px; }
+.cat-electronice2 { background-position: -3px -387px; width: 40px; height: 40px; }
+.cat-gradina { background-position: -3px -430px; width: 40px; height: 40px; }
+.cat-gradina2 { background-position: -3px -473px; width: 40px; height: 40px; }
+.cat-imobiliare { background-position: -3px -516px; width: 40px; height: 40px; }
+.cat-imobiliare2 { background-position: -3px -559px; width: 40px; height: 40px; }
+.cat-industrie { background-position: -3px -602px; width: 40px; height: 40px; }
+.cat-industrie2 { background-position: -3px -645px; width: 40px; height: 40px; }
+.cat-locuri-de-munca { background-position: -3px -688px; width: 40px; height: 40px; }
+.cat-locuri-de-munca2 { background-position: -3px -731px; width: 40px; height: 40px; }
+.cat-mama-si-copilul { background-position: -3px -774px; width: 40px; height: 40px; }
+.cat-mama-si-copilul2 { background-position: -3px -817px; width: 40px; height: 40px; }
+.cat-moda-si-frumusete { background-position: -3px -860px; width: 40px; height: 40px; }
+.cat-moda-si-frumusete2 { background-position: -3px -903px; width: 40px; height: 40px; }
+.cat-servicii { background-position: -3px -946px; width: 40px; height: 40px; }
+.cat-servicii2 { background-position: -3px -989px; width: 40px; height: 40px; }
+.cat-sport-si-arta { background-position: -3px -1032px; width: 40px; height: 40px; }
+.cat-sport-si-arta2 { background-position: -3px -1075px; width: 40px; height: 40px; }
+.cat-cpads { background-position: -3px -1118px; width: 35px; height: 35px; }
+.cat-cpsetari { background-position: -3px -1156px; width: 35px; height: 35px; }
+.cat-messages { background-position: -3px -1194px; width: 35px; height: 35px; }
+.cat-plati { background-position: -3px -1232px; width: 35px; height: 35px; }
+.cat-saveads { background-position: -3px -1270px; width: 35px; height: 35px; }
+.cat-ticket { background-position: -3px -1308px; width: 35px; height: 35px; }
+.cat-location { background-position: -3px -1346px; width: 24px; height: 24px; }
+.cat-skype { background-position: -3px -1373px; width: 24px; height: 24px; }
+.cat-yahoo { background-position: -3px -1400px; width: 24px; height: 24px; }
+.cat-dezactiveaza { background-position: -3px -1427px; width: 16px; height: 16px; }
+.cat-dezactiveaza2 { background-position: -22px -1427px; width: 16px; height: 16px; }
+.cat-edit { background-position: -3px -1446px; width: 16px; height: 16px; }
+.cat-edit2 { background-position: -22px -1446px; width: 16px; height: 16px; }
+.cat-logout { background-position: -3px -1465px; width: 16px; height: 16px; }
+.cat-miniadmin { background-position: -22px -1465px; width: 16px; height: 16px; }
+.cat-minimessages { background-position: -3px -1484px; width: 16px; height: 16px; }
+.cat-miniplati { background-position: -22px -1484px; width: 16px; height: 16px; }
+.cat-minisaveads { background-position: -3px -1503px; width: 16px; height: 16px; }
+.cat-miniticket { background-position: -22px -1503px; width: 16px; height: 16px; }
+.cat-muta-inapoi { background-position: -3px -1522px; width: 16px; height: 16px; }
+.cat-myads { background-position: -22px -1522px; width: 16px; height: 16px; }
+.cat-myfounds { background-position: -3px -1541px; width: 16px; height: 16px; }
+.cat-next { background-position: -22px -1541px; width: 16px; height: 16px; }
+.cat-previeus { background-position: -3px -1560px; width: 16px; height: 16px; }
+.cat-print { background-position: -22px -1560px; width: 16px; height: 16px; }
+.cat-print2 { background-position: -3px -1579px; width: 16px; height: 16px; }
+.cat-promoveaza { background-position: -22px -1579px; width: 16px; height: 16px; }
+.cat-promoveaza2 { background-position: -3px -1598px; width: 16px; height: 16px; }
+.cat-reactualizeaza { background-position: -22px -1598px; width: 16px; height: 16px; }
+.cat-settings { background-position: -3px -1617px; width: 16px; height: 16px; }

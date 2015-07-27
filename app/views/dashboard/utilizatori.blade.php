@@ -1,0 +1,3 @@
+@foreach($utilizatori as $user)
+<tr {{ $user->confirm==0 ? 'class="inconfirm"' : '' }} id="{{$user->id}}"><td>{{$user->id}}</td><td>{{$user->nume}}</td><td>{{$user->email}}</td><td>{{$user->oras}}</td><td>{{$user->cartier}}</td><td>{{$user->telefon}}</td><td>{{$user->skype}}</td><td>{{$user->yahoo}}</td><td><div class="cat-edit edituser" title="Editeaza Utilizator"></div><div class="cat-dezactiveaza stergeuser" title="Sterge Utilizator"></div></td></tr>
+@endforeach

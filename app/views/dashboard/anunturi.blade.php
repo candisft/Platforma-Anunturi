@@ -1,0 +1,3 @@
+@foreach($anunturi as $anunt)
+<tr {{ ($anunt->confirm==0 && $anunt->confirm_code=="") ? 'class="inconfirm"' : '' }} id="{{$anunt->id}}"><td>{{$anunt->id}}</td><td><a href="/anunt/{{preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $anunt['titlu'])).'-'.$anunt['id']}}" target="_blank">{{$anunt->titlu}}</a></td><td>{{User::where('id', $anunt->user)->first()->nume}}</td><td>{{$anunt->categorie}} / {{$anunt->subcategorie}}</td><td>{{$anunt->promovat==0 ? 'Nu' : $anunt->pachet}}</td><td><img src="{{$anunt['imagine']}}" alt="Fara Imagine" /></td><td><div class="cat-dezactiveaza stergeanunt" title="Sterge Anunt"></div></td></tr>
+@endforeach

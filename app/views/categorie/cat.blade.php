@@ -1,0 +1,6 @@
+@yield('header')
+@yield(((!Auth::check()) ? 'loginregister' : '' ))
+@yield(((!Auth::check()) ? 'fixedbar' : 'fixedbarlogat' ))
+@yield('toppart')
+@yield('categorie')
+@yield('footer')
